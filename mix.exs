@@ -43,7 +43,7 @@ defmodule InlineSvgTest.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:phoenix_inline_svg, "~> 1.3"}
+      {:phoenix_inline_svg, github: "mhanberg/phoenix_inline_svg", branch: "fix-generated-functions"}
     ]
   end
 

@@ -24,7 +24,7 @@ config :logger, :console,
 
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
-config :phoenix_inline_svg, dir: "/priv/static/images"
+config :phoenix_inline_svg, dir: "./assets/static/images"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

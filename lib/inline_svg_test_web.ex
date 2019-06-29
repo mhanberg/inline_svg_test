@@ -43,7 +43,7 @@ defmodule InlineSvgTestWeb do
       import InlineSvgTestWeb.Gettext
       alias InlineSvgTestWeb.Router.Helpers, as: Routes
 
-      use PhoenixInlineSvg.Helpers, otp_app: :inline_svg_test
+      use PhoenixInlineSvg.Helpers
     end
   end
 
